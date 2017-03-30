@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D0BDEEE1E8B557D001E5B66 /* RecamarasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0BDEED1E8B557D001E5B66 /* RecamarasController.swift */; };
+		1D0BDEF01E8B55C0001E5B66 /* EstanciaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0BDEEF1E8B55C0001E5B66 /* EstanciaController.swift */; };
 		1D0DD27C1E8989C200C249F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0DD27B1E8989C200C249F0 /* AppDelegate.swift */; };
 		1D0DD27E1E8989C200C249F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0DD27D1E8989C200C249F0 /* ViewController.swift */; };
 		1D0DD2811E8989C200C249F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0DD27F1E8989C200C249F0 /* Main.storyboard */; };
-		1D0DD2831E8989C200C249F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0DD2821E8989C200C249F0 /* Assets.xcassets */; };
 		1D0DD2861E8989C200C249F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0DD2841E8989C200C249F0 /* LaunchScreen.storyboard */; };
 		1D0DD2911E8989C300C249F0 /* HouseControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0DD2901E8989C300C249F0 /* HouseControlTests.swift */; };
 		1D0DD29C1E8989C300C249F0 /* HouseControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0DD29B1E8989C300C249F0 /* HouseControlUITests.swift */; };
+		1D0DD2AC1E8A00C400C249F0 /* CocinaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0DD2AB1E8A00C400C249F0 /* CocinaController.swift */; };
+		1D81C9431E8C73290068B165 /* BanoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D81C9421E8C73290068B165 /* BanoController.swift */; };
+		1D81C9451E8C79A60068B165 /* LuzController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D81C9441E8C79A60068B165 /* LuzController.swift */; };
+		1D81C9471E8C80A50068B165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D81C9461E8C80A50068B165 /* Assets.xcassets */; };
+		1D81C9491E8C9E570068B165 /* CamaraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D81C9481E8C9E570068B165 /* CamaraController.swift */; };
+		1D81C94B1E8CDD880068B165 /* AireController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D81C94A1E8CDD880068B165 /* AireController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D0BDEED1E8B557D001E5B66 /* RecamarasController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecamarasController.swift; sourceTree = "<group>"; };
+		1D0BDEEF1E8B55C0001E5B66 /* EstanciaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstanciaController.swift; sourceTree = "<group>"; };
 		1D0DD2781E8989C200C249F0 /* HouseControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D0DD27B1E8989C200C249F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D0DD27D1E8989C200C249F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1D0DD2801E8989C200C249F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1D0DD2821E8989C200C249F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D0DD2851E8989C200C249F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D0DD2871E8989C200C249F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D0DD28C1E8989C300C249F0 /* HouseControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +55,12 @@
 		1D0DD2971E8989C300C249F0 /* HouseControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D0DD29B1E8989C300C249F0 /* HouseControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseControlUITests.swift; sourceTree = "<group>"; };
 		1D0DD29D1E8989C300C249F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D0DD2AB1E8A00C400C249F0 /* CocinaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocinaController.swift; sourceTree = "<group>"; };
+		1D81C9421E8C73290068B165 /* BanoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BanoController.swift; sourceTree = "<group>"; };
+		1D81C9441E8C79A60068B165 /* LuzController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LuzController.swift; sourceTree = "<group>"; };
+		1D81C9461E8C80A50068B165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		1D81C9481E8C9E570068B165 /* CamaraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CamaraController.swift; sourceTree = "<group>"; };
+		1D81C94A1E8CDD880068B165 /* AireController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AireController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +111,10 @@
 		1D0DD27A1E8989C200C249F0 /* HouseControl */ = {
 			isa = PBXGroup;
 			children = (
+				1D0DD2A91E89FFEF00C249F0 /* ViewControllers */,
+				1D0DD2AA1E8A001800C249F0 /* Storyboards */,
 				1D0DD27B1E8989C200C249F0 /* AppDelegate.swift */,
-				1D0DD27D1E8989C200C249F0 /* ViewController.swift */,
-				1D0DD27F1E8989C200C249F0 /* Main.storyboard */,
-				1D0DD2821E8989C200C249F0 /* Assets.xcassets */,
-				1D0DD2841E8989C200C249F0 /* LaunchScreen.storyboard */,
+				1D81C9461E8C80A50068B165 /* Assets.xcassets */,
 				1D0DD2871E8989C200C249F0 /* Info.plist */,
 			);
 			path = HouseControl;
@@ -123,6 +136,30 @@
 				1D0DD29D1E8989C300C249F0 /* Info.plist */,
 			);
 			path = HouseControlUITests;
+			sourceTree = "<group>";
+		};
+		1D0DD2A91E89FFEF00C249F0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1D0DD27D1E8989C200C249F0 /* ViewController.swift */,
+				1D0DD2AB1E8A00C400C249F0 /* CocinaController.swift */,
+				1D0BDEED1E8B557D001E5B66 /* RecamarasController.swift */,
+				1D0BDEEF1E8B55C0001E5B66 /* EstanciaController.swift */,
+				1D81C9421E8C73290068B165 /* BanoController.swift */,
+				1D81C9441E8C79A60068B165 /* LuzController.swift */,
+				1D81C9481E8C9E570068B165 /* CamaraController.swift */,
+				1D81C94A1E8CDD880068B165 /* AireController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1D0DD2AA1E8A001800C249F0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1D0DD2841E8989C200C249F0 /* LaunchScreen.storyboard */,
+				1D0DD27F1E8989C200C249F0 /* Main.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D0DD2861E8989C200C249F0 /* LaunchScreen.storyboard in Resources */,
-				1D0DD2831E8989C200C249F0 /* Assets.xcassets in Resources */,
+				1D81C9471E8C80A50068B165 /* Assets.xcassets in Resources */,
 				1D0DD2811E8989C200C249F0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,8 +299,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D81C94B1E8CDD880068B165 /* AireController.swift in Sources */,
+				1D81C9451E8C79A60068B165 /* LuzController.swift in Sources */,
+				1D0DD2AC1E8A00C400C249F0 /* CocinaController.swift in Sources */,
+				1D81C9491E8C9E570068B165 /* CamaraController.swift in Sources */,
+				1D0BDEF01E8B55C0001E5B66 /* EstanciaController.swift in Sources */,
 				1D0DD27E1E8989C200C249F0 /* ViewController.swift in Sources */,
 				1D0DD27C1E8989C200C249F0 /* AppDelegate.swift in Sources */,
+				1D0BDEEE1E8B557D001E5B66 /* RecamarasController.swift in Sources */,
+				1D81C9431E8C73290068B165 /* BanoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +465,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.DreamTeamCo.HouseControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -434,6 +479,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.DreamTeamCo.HouseControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -514,6 +560,7 @@
 				1D0DD2A21E8989C300C249F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D0DD2A31E8989C300C249F0 /* Build configuration list for PBXNativeTarget "HouseControlTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +569,7 @@
 				1D0DD2A51E8989C300C249F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D0DD2A61E8989C300C249F0 /* Build configuration list for PBXNativeTarget "HouseControlUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +578,7 @@
 				1D0DD2A81E8989C300C249F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
